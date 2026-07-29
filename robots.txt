@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemap locations
+Sitemap: https://africanphotosandvideos.com/sitemap.xml
+Sitemap: https://africanphotosandvideos.com/image-sitemap.xml
