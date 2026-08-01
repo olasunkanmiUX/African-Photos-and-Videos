@@ -1,0 +1,9 @@
+Redeploy trigger
+
+This file was added to trigger a Vercel redeploy so that updated OG image and meta tags are published.
+
+Image used: images/og-image.jpg
+Width: 1200
+Height: 630
+
+Timestamp: 2026-08-01T14:25:00Z
