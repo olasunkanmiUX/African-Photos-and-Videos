@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ title | default("African Photos and Videos") }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  {% include "navbar.njk" %}
+
+  {% if hero_image or hero_subtext or hero_buttons %}
+    {% include "hero.njk" %}
+  {% endif %}
+
+  <main class="site-main">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; {{ "now" | date("YYYY") }} African Photos and Videos</p>
+    </div>
+  </footer>
+</body>
+</html>

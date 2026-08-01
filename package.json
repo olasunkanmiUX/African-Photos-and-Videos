@@ -1,0 +1,12 @@
+{
+  "name": "african-photos-and-videos",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
