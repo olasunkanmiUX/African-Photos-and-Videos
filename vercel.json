@@ -1,11 +1,5 @@
 {
-  "builds": [
-    { "src": "index.html", "use": "@vercel/static" },
-    { "src": "admin/**", "use": "@vercel/static" },
-    { "src": "assets/**", "use": "@vercel/static" },
-    { "src": "uploads/**", "use": "@vercel/static" },
-    { "src": "includes/**", "use": "@vercel/static" }
-  ],
+  "version": 2,
   "routes": [
     { "src": "/admin", "dest": "/admin/index.html" },
     { "src": "/admin/(.*)", "dest": "/admin/$1" },

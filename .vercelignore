@@ -1,0 +1,3 @@
+.vercelignore
+# Keep Vercel project config files out of source deployments where unnecessary
+.vercel/
