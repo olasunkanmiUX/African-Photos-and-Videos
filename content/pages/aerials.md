@@ -1,4 +1,5 @@
 ---
-title: "Aerials"
+title: "Aerial (removed)"
 ---
-Aerial photography and videography services across Africa. Drone deployments, licensed pilots and editing available.
+
+This page has been removed. Aerial content has been removed per site update.

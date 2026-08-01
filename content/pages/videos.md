@@ -1,7 +1,8 @@
 ---
-title: "Videos"
+title: "Browse Videos"
 ---
-Explore curated African video footage suitable for documentaries, commercials, and creative work. We syndicate via global stock marketplaces; follow the buttons below to browse.
+
+Explore curated African video footage suitable for documentaries, commercials, and creative work. Each featured collection below links to curated sets and licensing information.
 
 marketplace_buttons:
   - name: "Shutterstock"
@@ -12,3 +13,13 @@ marketplace_buttons:
     url: "https://www.pond5.com"
   - name: "Adobe Stock"
     url: "https://stock.adobe.com"
+
+categories:
+  - category: "Transportation"
+  - category: "Market"
+  - category: "Lifestyle"
+  - category: "Aerial"
+  - category: "Nature"
+  - category: "Festivals"
+  - category: "Travel"
+  - category: "Landmarks"

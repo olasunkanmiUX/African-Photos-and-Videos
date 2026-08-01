@@ -1,5 +1,5 @@
 ---
-title: "Book a Service"
-success_message: "Thank you! We'll contact you shortly."
+title: "Book a Service (removed)"
 ---
-Use this page to let customers book services like photography, videography, aerials, editing and stock training. The booking form on the page posts to Netlify Forms (or your preferred service).
+
+The Book a Service page has been removed. Contact us via the Contact page for enquiries.

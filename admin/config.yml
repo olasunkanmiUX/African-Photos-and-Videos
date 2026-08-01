@@ -23,35 +23,29 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
 
       - file: "content/pages/images.md"
-        label: "Images"
+        label: "Browse Images"
         name: "images"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Intro", name: "intro", widget: "markdown" }
+          - { label: "Featured Categories", name: "categories", widget: "list", fields: [{label:"Category", name:"category", widget:"string"},{label:"Link (optional)", name:"link", widget:"string", required:false}] }
           - { label: "Marketplace Buttons", name: "marketplace_buttons", widget: "list", fields: [{label:"Name", name:"name", widget:"string"},{label:"URL", name:"url", widget:"string"}] }
 
       - file: "content/pages/videos.md"
-        label: "Videos"
+        label: "Browse Videos"
         name: "videos"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Intro", name: "intro", widget: "markdown" }
+          - { label: "Featured Categories", name: "categories", widget: "list", fields: [{label:"Category", name:"category", widget:"string"},{label:"Link (optional)", name:"link", widget:"string", required:false}] }
           - { label: "Marketplace Buttons", name: "marketplace_buttons", widget: "list", fields: [{label:"Name", name:"name", widget:"string"},{label:"URL", name:"url", widget:"string"}] }
 
-      - file: "content/pages/bookaservice.md"
-        label: "Book a Service"
-        name: "bookaservice"
+      - file: "content/pages/contact.md"
+        label: "Contact"
+        name: "contact"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Intro", name: "intro", widget: "markdown" }
-          - { label: "Form success message", name: "success_message", widget: "string", default: "Thank you! We'll contact you shortly." }
-
-      - file: "content/pages/aerials.md"
-        label: "Aerials"
-        name: "aerials"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Intro", name: "intro", widget: "markdown" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
       - file: "content/pages/about.md"
         label: "About"
