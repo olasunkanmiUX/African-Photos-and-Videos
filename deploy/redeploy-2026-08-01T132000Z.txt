@@ -1,0 +1,5 @@
+Redeploy trigger
+
+This file was added to trigger a Vercel redeploy so that updated thumbnails in images/ and page changes are published.
+
+Timestamp: 2026-08-01T13:20:00Z
