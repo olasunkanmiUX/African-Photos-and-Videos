@@ -1,26 +1,13 @@
+<!-- Eleventy layout removed -->
+<!-- This file was previously used by Eleventy but Eleventy has been removed. -->
+<!-- The project now serves the repository root directly (index.html) on Vercel. -->
 <!doctype html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{{ title | default("African Photos and Videos") }}</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-  {% include "navbar.njk" %}
-
-  {% if hero_image or hero_subtext or hero_buttons %}
-    {% include "hero.njk" %}
-  {% endif %}
-
-  <main class="site-main">
-    {{ content | safe }}
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>&copy; {{ "now" | date("YYYY") }} African Photos and Videos</p>
-    </div>
-  </footer>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Layout removed</title>
+  </head>
+  <body>
+    <p>Eleventy layout removed. The site now uses the root index.html as the canonical page.</p>
+  </body>
 </html>

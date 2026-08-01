@@ -1,11 +1,8 @@
-<section class="hero" style="background-image: url('{{ hero_image | default('/uploads/hero.jpg') }}')">
+<!-- includes/hero.njk replaced -->
+<!-- Hero include removed because Eleventy was removed. Use root index.html for site markup. -->
+<section class="hero">
   <div class="hero-overlay">
     <h1 class="hero-title">Premium African Stock Photos & Videos</h1>
-    <p class="hero-subtext">{{ hero_subtext }}</p>
-    <div class="hero-buttons">
-      {% for btn in hero_buttons %}
-        <a class="btn" href="{{ btn.url }}">{{ btn.text }}</a>
-      {% endfor %}
-    </div>
+    <p class="hero-subtext">Use root index.html for the canonical site content.</p>
   </div>
 </section>

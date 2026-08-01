@@ -2,11 +2,7 @@
   "name": "african-photos-and-videos",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "build": "eleventy",
-    "start": "eleventy --serve"
-  },
-  "dependencies": {
-    "@11ty/eleventy": "^1.0.1"
-  }
+  "description": "Static site — Eleventy removed. The site is served directly from repository root on Vercel.",
+  "scripts": {},
+  "dependencies": {}
 }
