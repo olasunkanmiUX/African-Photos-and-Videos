@@ -1,0 +1,7 @@
+Revert: undo inline thumbnail fallbacks and JS added in previous request. Restored images/index.html and videos/index.html to previous versions without inline background styles or onerror handlers.
+
+Redeploy trigger
+
+This file was added to prompt a redeploy after the revert.
+
+Timestamp: 2026-08-01T15:30:00Z
