@@ -91,6 +91,12 @@ body {
   color: #111;
 }
 
+.landing-copyright {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
 /* Navbar: black background, white menu text */
 .site-nav {
   background: #000;
