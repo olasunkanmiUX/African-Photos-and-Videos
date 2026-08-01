@@ -1,0 +1,5 @@
+Redeploy trigger
+
+This file was added to trigger a Vercel redeploy so that updated images (images/transportation-thumb.jpg) and page changes are published.
+
+Timestamp: 2026-08-01T13:10:00Z
