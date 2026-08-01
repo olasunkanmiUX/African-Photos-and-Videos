@@ -50,11 +50,26 @@
 .post-list li { margin-bottom:18px; }
 
 /* Image placeholder gallery */
-.image-card { border-radius:8px; overflow:hidden; background:#f6f6f6; display:flex; flex-direction:column; }
+.image-card {
+  border-radius:8px;
+  overflow:hidden;
+  /* fallback background removed to ensure placeholder image shows */
+  background: none;
+  display:flex;
+  flex-direction:column;
+}
+
+/* Global placeholder: hero-thumb.jpg used wherever .thumb is present and when images fail to load */
+.image-card, .image-card .thumb {
+  background-image: url('/images/hero-thumb.jpg') !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
 .image-card .thumb {
   width:100%;
   aspect-ratio: 1 / 1; /* modern browsers */
-  background: url('/images/hero-thumb.jpg') center/cover no-repeat;
   display:flex; align-items:center; justify-content:center; color:#333; font-weight:700; font-size:16px;
 }
 .image-card .thumb img { width:100%; height:100%; object-fit:cover; display:block; }
