@@ -1,0 +1,5 @@
+Redeploy trigger
+
+This file was added to trigger a Vercel redeploy so that UI and accessibility changes are published.
+
+Timestamp: 2026-08-01T14:00:00Z
