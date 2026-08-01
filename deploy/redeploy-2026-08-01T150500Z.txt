@@ -1,0 +1,6 @@
+Redeploy trigger
+
+This file was added to trigger a Vercel redeploy so that hero-thumb is used as the placeholder for all thumbnails site-wide.
+
+Image used: images/hero-thumb.jpg
+Timestamp: 2026-08-01T15:05:00Z

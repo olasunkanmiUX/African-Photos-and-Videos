@@ -54,7 +54,7 @@
 .image-card .thumb {
   width:100%;
   aspect-ratio: 1 / 1; /* modern browsers */
-  background: linear-gradient(135deg,#e6e6e6,#cccccc);
+  background: url('/images/hero-thumb.jpg') center/cover no-repeat;
   display:flex; align-items:center; justify-content:center; color:#333; font-weight:700; font-size:16px;
 }
 .image-card .thumb img { width:100%; height:100%; object-fit:cover; display:block; }
