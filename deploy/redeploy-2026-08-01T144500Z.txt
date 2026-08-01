@@ -1,0 +1,10 @@
+Redeploy trigger
+
+This file was added to trigger a Vercel redeploy so that updated OG image alt text and meta tags are published.
+
+OG image: images/og-image.jpg
+Width: 1200
+Height: 630
+OG image alt: African Photos and Videos — curated preview image showing African scenes (1200x630)
+
+Timestamp: 2026-08-01T14:45:00Z
