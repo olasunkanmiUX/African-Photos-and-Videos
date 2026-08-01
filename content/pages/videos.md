@@ -6,7 +6,7 @@ Explore curated African video footage suitable for documentaries, commercials, a
 
 marketplace_buttons:
   - name: "Shutterstock"
-    url: "https://www.shutterstock.com"
+    url: "https://www.shutterstock.com/g/pencilsmoka/video?q=transportation"
   - name: "Getty Images"
     url: "https://www.gettyimages.com"
   - name: "Pond5"
