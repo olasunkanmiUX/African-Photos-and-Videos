@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About — African Photos and Videos</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="brand" href="/"><span class="brand-text">African Photos and Videos</span></a>
+      <ul class="nav-links">
+        <li><a href="/images/">Images</a></li>
+        <li><a href="/videos/">Videos</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" style="background-image: url('/uploads/hero.jpg')">
+    <div class="hero-overlay">
+      <h1 class="hero-title">About the Photographer</h1>
+      <p class="hero-subtext">African Photos and Videos curates high-quality photography and videography showcasing African people, places and stories.</p>
+    </div>
+  </header>
+
+  <main class="site-main wrap">
+    <section>
+      <h2>Biography</h2>
+      <p><strong>Jane Doe</strong> is an award-winning African photographer whose work documents culture, city life, landscapes and human stories across the continent. Her images have been featured in editorial and commercial projects worldwide.</p>
+      <p>The photographer focuses on authentic representation and ethical storytelling — building relationships with communities and seeking permission where required for editorial use.</p>
+    </section>
+
+    <section>
+      <h2>Featured Photographer</h2>
+      <div class="card">
+        <img src="/uploads/jane-doe.jpg" alt="Jane Doe" style="max-width:240px; display:block;">
+        <h3>Jane Doe</h3>
+        <p>Photographer & Curator</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact for licensing and collaborations</h2>
+      <p>For licensing or collaborations with the photographer, please use the <a href="/contact/">Contact</a> page.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year"></span> African Photos and Videos</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
