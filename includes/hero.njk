@@ -1,0 +1,11 @@
+<section class="hero" style="background-image: url('{{ page.hero_image | default('/uploads/hero.jpg') }}')">
+  <div class="hero-overlay">
+    <h1 class="hero-title">Premium African Stock Photos & Videos</h1>
+    <p class="hero-subtext">{{ page.hero_subtext }}</p>
+    <div class="hero-buttons">
+      {% for btn in page.hero_buttons %}
+        <a class="btn" href="{{ btn.url }}">{{ btn.text }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

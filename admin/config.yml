@@ -1,0 +1,77 @@
+backend:
+  name: github
+  repo: "olasunkanmiUX/African-Photos-and-Videos"
+  branch: "main"
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+site_url: "https://africanphotosandvideos.com.ng"
+display_url: "africanphotosandvideos.com.ng"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "content/pages/home.md"
+        label: "Home"
+        name: "home"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Hero image", name: "hero_image", widget: "image", required: false }
+          - { label: "Hero subtext", name: "hero_subtext", widget: "text", required: false }
+          - { label: "Hero buttons", name: "hero_buttons", widget: "list", fields: [{label:"Text", name:"text", widget:"string"},{label:"URL", name:"url", widget:"string"}], required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - file: "content/pages/images.md"
+        label: "Images"
+        name: "images"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Intro", name: "intro", widget: "markdown" }
+          - { label: "Marketplace Buttons", name: "marketplace_buttons", widget: "list", fields: [{label:"Name", name:"name", widget:"string"},{label:"URL", name:"url", widget:"string"}] }
+
+      - file: "content/pages/videos.md"
+        label: "Videos"
+        name: "videos"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Intro", name: "intro", widget: "markdown" }
+          - { label: "Marketplace Buttons", name: "marketplace_buttons", widget: "list", fields: [{label:"Name", name:"name", widget:"string"},{label:"URL", name:"url", widget:"string"}] }
+
+      - file: "content/pages/bookaservice.md"
+        label: "Book a Service"
+        name: "bookaservice"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Intro", name: "intro", widget: "markdown" }
+          - { label: "Form success message", name: "success_message", widget: "string", default: "Thank you! We'll contact you shortly." }
+
+      - file: "content/pages/aerials.md"
+        label: "Aerials"
+        name: "aerials"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Intro", name: "intro", widget: "markdown" }
+
+      - file: "content/pages/about.md"
+        label: "About"
+        name: "about"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body / Bio", name: "body", widget: "markdown" }
+          - { label: "Featured photographer image", name: "photographer_image", widget: "image", required: false }
+          - { label: "Photographer name", name: "photographer_name", widget: "string", required: false }
+          - { label: "Photographer bio", name: "photographer_bio", widget: "text", required: false }
+
+  - name: "blog"
+    label: "Blog"
+    folder: "content/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "text" }
+      - { label: "Featured Image", name: "featured_image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }

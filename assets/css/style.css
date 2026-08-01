@@ -1,0 +1,42 @@
+/* Basic CMS-ready styles and hero layout adjustments */
+body { margin:0; font-family: "Helvetica Neue", Arial, sans-serif; color:#222; }
+.site-nav { background: rgba(255,255,255,0.95); border-bottom: 1px solid #eee; position:relative; z-index:20; }
+.site-nav .nav-inner { max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:14px; }
+.brand-text { font-family: Georgia, serif; font-weight: bold; font-size:20px; color:#111; text-decoration:none; }
+.nav-links { list-style:none; margin:0; padding:0; display:flex; gap:18px; }
+.nav-links a { color:#111; text-decoration:none; font-size:15px; }
+
+/* Hero stretched across the page with centered overlay */
+.hero {
+  width:100%;
+  min-height:60vh;
+  background-size:cover;
+  background-position:center center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+}
+.hero-overlay {
+  background: rgba(0,0,0,0.35);
+  color: #fff;
+  padding: 40px;
+  text-align:center;
+  max-width:1000px;
+  margin: 40px;
+  border-radius: 6px;
+}
+.hero-title { font-size:36px; margin:0 0 10px; font-weight:700; }
+.hero-subtext { font-size:16px; margin:0 0 20px; line-height:1.5; }
+.hero-buttons { display:flex; justify-content:center; gap:12px; flex-wrap:wrap; }
+.btn {
+  display:inline-block;
+  background:#ff6b00;
+  color:#fff;
+  padding:12px 18px;
+  text-decoration:none;
+  border-radius:4px;
+}
+.booking-form { max-width:720px; margin: 24px auto; display:flex; flex-direction:column; gap:12px; }
+.booking-form label { display:flex; flex-direction:column; font-size:14px; }
+.booking-form input, .booking-form textarea, .booking-form select { padding:8px; border:1px solid #ccc; border-radius:4px; }

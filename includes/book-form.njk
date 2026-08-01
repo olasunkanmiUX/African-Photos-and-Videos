@@ -1,0 +1,24 @@
+<form name="booking" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="booking-form">
+  <input type="hidden" name="form-name" value="booking" />
+  <p style="display:none;"><label>Don’t fill this out: <input name="bot-field" /></label></p>
+
+  <label>Name <input type="text" name="name" required /></label>
+  <label>Email <input type="email" name="email" required /></label>
+  <label>Phone <input type="tel" name="phone" /></label>
+
+  <label>Service
+    <select name="service_type" required>
+      <option>Videography</option>
+      <option>Photography</option>
+      <option>Aerial Photography</option>
+      <option>Aerial Videography</option>
+      <option>Image Retouching</option>
+      <option>Video Editing</option>
+      <option>Learn How to Sell Stock</option>
+    </select>
+  </label>
+
+  <label>Project details / message <textarea name="message"></textarea></label>
+
+  <button type="submit" class="btn">Request Booking</button>
+</form>
