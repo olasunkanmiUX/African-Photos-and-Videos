@@ -8,7 +8,7 @@ marketplace_buttons:
   - name: "Shutterstock"
     url: "https://www.shutterstock.com/g/pencilsmoka?q=transportation"
   - name: "Getty Images"
-    url: "https://www.gettyimages.com"
+    url: "https://www.gettyimages.ie/search/2/image?artistexact=olasunkanmi%20ariyo&phrase=lifestyle&sort=mostpopular&license=rf%2Crm&page=2"
   - name: "Pond5"
     url: "https://www.pond5.com"
   - name: "Adobe Stock"
