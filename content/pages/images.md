@@ -6,7 +6,7 @@ A curated gallery of authentic African images suitable for editorial and commerc
 
 marketplace_buttons:
   - name: "Shutterstock"
-    url: "https://www.shutterstock.com"
+    url: "https://www.shutterstock.com/g/pencilsmoka?q=transportation"
   - name: "Getty Images"
     url: "https://www.gettyimages.com"
   - name: "Pond5"
