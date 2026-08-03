@@ -1,43 +1,52 @@
-<main class="article-page wrap">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Blog — African Photos and Videos</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="brand" href="/"><span class="brand-text">African Photos and Videos</span></a>
+      <ul class="nav-links">
+        <li><a href="/images/">Images</a></li>
+        <li><a href="/videos/">Videos</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </div>
+  </nav>
 
+  <header class="hero" style="background-image: url('/uploads/hero.jpg')">
+    <div class="hero-overlay">
+      <h1 class="hero-title">Blog</h1>
+      <p class="hero-subtext">Latest news, stories and updates from African Photos and Videos.</p>
+    </div>
+  </header>
 
-<section class="article-hero">
+  <main class="site-main wrap">
+    <section>
+      <h2>Latest Posts</h2>
+      <ul class="post-list">
+        <li>
+          <article>
+            <h3><a href="/blog/2026-08-01-welcome.html">Welcome to African Photos and Videos</a></h3>
+            <p class="excerpt">Launch post — what we do and where to find content.</p>
+            <p><a href="/blog/2026-08-01-welcome.html">Read more</a></p>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </main>
 
-<img src="/uploads/blog/lagos-traffic-hero.jpg"
-alt="Lagos traffic photography">
-
-</section>
-
-
-<article class="blog-article">
-
-<header>
-
-<h1>
-Capturing Lagos Traffic: Stories From The Road
-</h1>
-
-<p class="article-subtitle">
-A visual exploration of Lagos traffic, transportation,
-street life, and the human stories behind one of Africa's
-most energetic cities.
-</p>
-
-<p class="post-date">
-August 2026
-</p>
-
-</header>
-
-
-<div class="article-content">
-
-<!-- article content here -->
-
-</div>
-
-
-</article>
-
-
-</main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year"></span> African Photos and Videos</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
