@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <!-- Homepage -->
     <url>
-        <loc>https://african-photos-and-videos.vercel.app/</loc>
+        <loc>https://www.africanphotosandvideos.com.ng/</loc>
         <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -11,25 +11,25 @@
 
     <!-- Category Pages -->
     <url>
-        <loc>https://african-photos-and-videos.vercel.app/categories/african-business-people.html</loc>
+        <loc>https://www.africanphotosandvideos.com.ng/categories/african-business-people.html</loc>
         <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://african-photos-and-videos.vercel.app/categories/african-food.html</loc>
+        <loc>https://www.africanphotosandvideos.com.ng/categories/african-food.html</loc>
         <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://african-photos-and-videos.vercel.app/categories/african-market.html</loc>
+        <loc>https://www.africanphotosandvideos.com.ng/categories/african-market.html</loc>
         <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://african-photos-and-videos.vercel.app/categories/african-technology.html</loc>
+        <loc>https://www.africanphotosandvideos.com.ng/categories/african-technology.html</loc>
         <lastmod>2026-08-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -37,25 +37,25 @@
 
     <!-- Blog Pages -->
     <url>
-        <loc>https://african-photos-and-videos.vercel.app/blog/best-african-stock-photos-marketing.html</loc>
+        <loc>https://www.africanphotosandvideos.com.ng/blog/best-african-stock-photos-marketing.html</loc>
         <lastmod>2024-07-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://african-photos-and-videos.vercel.app/blog/authentic-african-imagery-matters.html</loc>
+        <loc>https://www.africanphotosandvideos.com.ng/blog/authentic-african-imagery-matters.html</loc>
         <lastmod>2024-07-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://african-photos-and-videos.vercel.app/blog/2026-08-01-welcome.html</loc>
+        <loc>https://www.africanphotosandvideos.com.ng/blog/2026-08-01-welcome.html</loc>
         <lastmod>2026-08-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://african-photos-and-videos.vercel.app/blog/2026-08-03-high-quality-nigerian-images-and-videos.html</loc>
+        <loc>https://www.africanphotosandvideos.com.ng/blog/2026-08-03-high-quality-nigerian-images-and-videos.html</loc>
         <lastmod>2026-08-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -63,13 +63,13 @@
 
     <!-- Service Pages -->
     <url>
-        <loc>https://african-photos-and-videos.vercel.app/book-service.html</loc>
+        <loc>https://www.africanphotosandvideos.com.ng/book-service.html</loc>
         <lastmod>2024-07-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://african-photos-and-videos.vercel.app/contact.html</loc>
+        <loc>https://www.africanphotosandvideos.com.ng/contact.html</loc>
         <lastmod>2024-07-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
