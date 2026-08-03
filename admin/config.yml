@@ -5,8 +5,8 @@ backend:
 media_folder: "static/uploads"
 public_folder: "/uploads"
 
-site_url: "https://africanphotosandvideos.com.ng"
-display_url: "africanphotosandvideos.com.ng"
+site_url: "https://www.africanphotosandvideos.com.ng"
+display_url: "www.africanphotosandvideos.com.ng"
 
 collections:
   - name: "pages"
