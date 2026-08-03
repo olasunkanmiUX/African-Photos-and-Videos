@@ -4,4 +4,4 @@ Disallow: /admin/
 Disallow: /private/
 
 # Sitemap
-Sitemap: https://african-photos-and-videos.vercel.app/sitemap.xml
+Sitemap: https://www.africanphotosandvideos.com.ng/sitemap.xml
